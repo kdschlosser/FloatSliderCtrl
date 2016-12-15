@@ -41,13 +41,13 @@ style     - wx.SL_HORIZONTAL: Displays the slider horizontally.
             wx.SL_INVERSE: Inverses the minimum and maximum endpoints on the slider.
                            Not compatible with wx.SL_SELRANGE.
 
-            Notice:
+            Notice
                 SL_LEFT , SL_TOP , SL_RIGHT and SL_BOTTOM specify the position of the
                 slider ticks in MSW implementation and that the min/max labels,
                 if any, are positioned on the opposite side. So, to have a label on
                 the left side of a vertical slider, wx.SL_RIGHT must be used.
 
-            Warning:
+            Warning
                 If using SL_AUTOTICKS as an example if you have an increment
                 set at 0.001 and a min of 0.0 and a max of 10000.00 this will cause the
                 widget to hang due to trying to draw 10,000,000 tick marks.
